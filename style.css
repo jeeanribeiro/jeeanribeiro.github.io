@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	align-items: center;
+	background-color: #222;
+	box-sizing: border-box;
+	color: #eee;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Raleway', sans-serif;
+	height: 100%;
+	justify-content: center;
+	margin: 0;
+	padding: 1rem;
+	width: 100%;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+main {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.link {
+	background-color: #eee;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border: 0.25rem solid #eee;
+	border-radius: 0.25rem;
+	box-shadow: 0 0.5rem 0 #111;
+	color: #eee;
+	font-weight: bold;
+	height: 2rem;
+	overflow: hidden;
+	text-indent: 100%;
+	transition-duration: 0.5s;
+	white-space: nowrap;
+	width: 2rem;
+}
+
+.link:hover {
+	background-color: #ddd;
+	border-color: #ddd;
+	box-shadow: 0 0 0 #111;
+}
+
+.link:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.github {
+	background-image: url(https://unpkg.com/simple-icons@v4/icons/github.svg)
+}
+
+.linkedin {
+	background-image: url(https://unpkg.com/simple-icons@v4/icons/linkedin.svg)
+}
+
+.codepen {
+	background-image: url(https://unpkg.com/simple-icons@v4/icons/codepen.svg)
+}
+
+.gmail {
+	background-image: url(https://unpkg.com/simple-icons@v4/icons/gmail.svg)
+}
+
+.whatsapp {
+	background-image: url(https://unpkg.com/simple-icons@v4/icons/whatsapp.svg)
+}

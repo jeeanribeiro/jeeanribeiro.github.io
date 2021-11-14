@@ -61,10 +61,14 @@ canvas {
 }
 
 .profile {
-	max-width: 15vw;
-	min-width: 30vh;
-	box-shadow: 0 0 10px white;
+	max-width: 10vw;
+	min-width: 20vh;
 	border-radius: 50%;
+	animation: 1s cubic-bezier(0.79, 0.21, 1, 1) 0s infinite alternate glow;
+}
+
+@keyframes glow {
+	from { box-shadow: 0 0 5px #dfa; } to { box-shadow: 0 0 20px #dfa; }
 }
 
 .link {
@@ -74,7 +78,6 @@ canvas {
 	background-size: contain;
 	border: 0.25rem solid #eee;
 	border-radius: 0.25rem;
-	box-shadow: 0 0.5rem 0 #111;
 	color: #eee;
 	font-weight: bold;
 	height: 2rem;
@@ -85,10 +88,12 @@ canvas {
 	width: 2rem;
 }
 
-.link:hover {
+.link:hover, .link:focus {
 	background-color: #ddd;
 	border-color: #ddd;
-	box-shadow: 0 0 0 #111;
+	box-shadow: 0 0 10px #dfa;
+	margin-top: -10px;
+	outline: none;
 }
 
 .link:not(:last-child) {

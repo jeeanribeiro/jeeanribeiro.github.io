@@ -44,6 +44,21 @@ main {
 	margin-top: 1rem;
 }
 
+canvas {
+	height: 100%;
+	width: 100%;
+	background: -o-linear-gradient(top, #000, #257eb7);
+	background: -ms-linear-gradient(top, #000, #257eb7);
+	background: -moz-linear-gradient(top, #000, #257eb7);
+	background: -webkit-linear-gradient(top, #000, #021522);
+	background: linear-gradient(top, #000, #257eb7);
+	position: absolute;
+ 	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
 .profile {
 	max-width: 15vw;
 	min-width: 30vh;

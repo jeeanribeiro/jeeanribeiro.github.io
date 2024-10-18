@@ -76,8 +76,18 @@ canvas {
 	animation: 1s cubic-bezier(0.79, 0.21, 1, 1) 0s infinite alternate glow;
 }
 
+.main {
+	animation: fadeIn 1s ease-in-out forwards;
+    will-change: opacity;
+}
+
 @keyframes glow {
 	from { box-shadow: 0 0 5px #dfa; } to { box-shadow: 0 0 20px #dfa; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 .link {
@@ -95,6 +105,7 @@ canvas {
 	transition-duration: 0.5s;
 	white-space: nowrap;
 	width: 2rem;
+    will-change: margin-top, background-color, border-color, box-shadow;
 }
 
 .link:hover, .link:focus {

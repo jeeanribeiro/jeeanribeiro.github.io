@@ -110,21 +110,21 @@ canvas {
 }
 
 .github {
-	background-image: url(https://unpkg.com/simple-icons@v4/icons/github.svg)
+	background-image: url(imgs/github.svg)
 }
 
 .linkedin {
-	background-image: url(https://unpkg.com/simple-icons@v4/icons/linkedin.svg)
+	background-image: url(imgs/linkedin.svg)
 }
 
 .codepen {
-	background-image: url(https://unpkg.com/simple-icons@v4/icons/codepen.svg)
+	background-image: url(imgs/codepen.svg)
 }
 
 .mail {
-	background-image: url(https://unpkg.com/bootstrap-icons@1.10.2/icons/envelope.svg)
+	background-image: url(imgs/envelope.svg)
 }
 
 .whatsapp {
-	background-image: url(https://unpkg.com/simple-icons@v4/icons/whatsapp.svg)
+	background-image: url(imgs/whatsapp.svg)
 }
